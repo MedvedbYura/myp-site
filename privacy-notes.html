@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - myp-mobile</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; background: #f0f2f5; }
+        .container { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .lang-switch { display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        .lang-switch button { padding: 8px 20px; cursor: pointer; border: 1px solid #ddd; background: #fff; border-radius: 20px; font-weight: bold; transition: 0.3s; }
+        .lang-switch button.active { background: #007bff; color: white; border-color: #007bff; }
+        .hidden { display: none; }
+        h1 { font-size: 24px; color: #111; border-left: 5px solid #007bff; padding-left: 15px; }
+        h2 { font-size: 18px; color: #444; margin-top: 25px; }
+        ul { padding-left: 20px; }
+        .contact-box { background: #f8f9fa; border: 1px dashed #ccc; padding: 20px; margin-top: 30px; border-radius: 8px; }
+        footer { text-align: center; margin-top: 20px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switch">
+        <button id="btn-ru" class="active" onclick="showLang('ru')">Русский</button>
+        <button id="btn-en" onclick="showLang('en')">English</button>
+    </div>
+
+    <div id="content-ru">
+        <h1>Политика конфиденциальности</h1>
+        <p><strong>Дата вступления в силу:</strong> 19 декабря 2025 г.</p>
+        <p>Организация <strong>myp-mobile</strong> («мы», «нас») серьезно относится к вашей конфиденциальности. Данная политика описывает, как наше приложение «Заметки» взаимодействует с данными.</p>
+
+        <h2>1. Ваши данные и Google Drive</h2>
+        <p>Приложение позволяет сохранять заметки в вашем личном облаке. Мы используем <strong>Google Drive API</strong> исключительно для синхронизации.</p>
+        <ul>
+            <li>Мы запрашиваем доступ только к файлам, созданным самим приложением (scope: <code>drive.file</code>).</li>
+            <li>Мы не имеем доступа к вашим личным фотографиям или документам, хранящимся на Диске.</li>
+            <li>Мы не имеем доступа к вашим даным в приложение .</li>
+             <li>Мы не несем ответцтвеность за утерю данных.</li>
+        </ul>
+
+        <h2>2. Рекламные сервисы (Google Ads & Яндекс)</h2>
+        <p>Для поддержки бесплатной версии приложения мы показываем рекламу через сервисы <strong>Google AdMob</strong> и <strong>Yandex Ads (SDK)</strong>.</p>
+        <p>Эти сервисы могут собирать следующие данные:</p>
+        <ul>
+            <li>Рекламный ID устройства (GAID для Android).</li>
+            <li>Технические данные (модель устройства, версия ОС, IP-адрес).</li>
+            <li>Данные о взаимодействии с рекламой.</li>
+        </ul>
+        <p>Яндекс может использовать данные для персонализации объявлений в соответствии со своей <a href="https://yandex.ru/legal/confidential/" target="_blank">Политикой конфиденциальности</a>.</p>
+
+        <h2>3. Передача данных третьим лицам</h2>
+        <p>Мы не продаем и не передаем ваши личные данные. Единственные данные, которые передаются, — это технические идентификаторы рекламным сетям (Google и Яндекс) для корректной работы рекламы.</p>
+
+        <div class="contact-box">
+            <strong>Контакты для связи:</strong><br>
+            Email: medvediiiyura@gmail.com<br>
+            Организация: myp-mobile
+        </div>
+    </div>
+
+    <div id="content-en" class="hidden">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> December 19, 2025</p>
+        <p><strong>myp-mobile</strong> ("we", "us") is committed to protecting your privacy. This policy explains how our "Notes" app handles user data.</p>
+
+        <h2>1. Your Data and Google Drive</h2>
+        <p>The app allows you to sync notes using <strong>Google Drive API</strong>.</p>
+        <ul>
+            <li>We only access files created by the app (scope: <code>drive.file</code>).</li>
+            <li>We do not have access to any other personal files or photos on your Google Drive.</li>
+        </ul>
+
+        <h2>2. Advertising (Google Ads & Yandex Ads)</h2>
+        <p>To keep the app free, we display ads via <strong>Google AdMob</strong> and <strong>Yandex Ads SDK</strong>.</p>
+        <p>These third-party providers may collect:</p>
+        <ul>
+            <li>Advertising ID (GAID).</li>
+            <li>Device information (model, OS version, IP address).</li>
+            <li>Interaction data with advertisements.</li>
+        </ul>
+        <p>For more info, please visit <a href="https://yandex.com/legal/confidential/" target="_blank">Yandex Privacy Policy</a>.</p>
+
+        <h2>3. Data Sharing</h2>
+        <p>We do not sell or share your personal information. Only anonymous technical data is shared with our advertising partners (Google and Yandex).</p>
+
+        <div class="contact-box">
+            <strong>Contact Us:</strong><br>
+            Email: medvediiiyura@gmail.com<br>
+            Developer: myp-mobile
+        </div>
+    </div>
+</div>
+
+<footer>&copy; 2025 myp-mobile. All rights reserved.</footer>
+
+<script>
+    function showLang(lang) {
+        const ru = document.getElementById('content-ru');
+        const en = document.getElementById('content-en');
+        const btnRu = document.getElementById('btn-ru');
+        const btnEn = document.getElementById('btn-en');
+
+        if (lang === 'ru') {
+            ru.classList.remove('hidden');
+            en.classList.add('hidden');
+            btnRu.classList.add('active');
+            btnEn.classList.remove('active');
+        } else {
+            ru.classList.add('hidden');
+            en.classList.remove('hidden');
+            btnRu.classList.remove('active');
+            btnEn.classList.add('active');
+        }
+    }
+</script>
+
+</body>
+</html>
