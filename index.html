@@ -162,14 +162,43 @@
     <div class="apps-grid">
       
       <!-- Приложение 1 -->
-      <div class="app-card" onclick="openModal('notes')">
-        <div class="app-icon">📝</div>
-        <h3 class="app-title">MypNotes - Заметки, Задачи, Цели</h3>
-        <p class="app-desc">Управляйте своими заметками Редактируйте текст,  голосовой ввод и многое другое!</p>
-        <a href="privacy-notes.html" class="privacy-link" target="_blank">
-          Политика конфиденциальности
-        </a>
-      </div>
+     <div class="app-card expanded">
+    <div class="app-icon">
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Контур иконки заметок -->
+        <path d="M16 8H48C50.2091 8 52 9.79086 52 12V52C52 54.2091 50.2091 56 48 56H16C13.7909 56 12 54.2091 12 52V12C12 9.79086 13.7909 8 16 8Z" stroke="currentColor" stroke-width="2"/>
+        <path d="M24 20H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M24 32H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M24 44H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    
+    <div class="app-content">
+      <h3 class="app-title">MypNotes — Заметки, Задачи, Цели</h3>
+      <p class="app-desc">Управляйте своими заметками. Редактируйте текст, используйте голосовой ввод и многое другое!</p>
+      
+      <!-- Кнопки сторов -->
+<div class="store-buttons">
+  <a href="https://play.google.com/store/apps/details?id=yura.medved.note"
+     target="_blank" rel="noopener" class="store-btn play-market">
+    <img src="images/play.png" alt="Google Play" width="24" height="24">
+    <span>Google Play</span>
+  </a>
+
+  <a href="https://rustore.ru/catalog/app/yura.medved.note"
+     target="_blank" rel="noopener" class="store-btn rustore">
+    <img src="images/rustore.png" alt="RuStore" width="24" height="24">
+    <span>RuStore</span>
+  </a>
+</div>
+      
+      <!-- Политика конфиденциальности -->
+      <a href="privacy-notes.html" class="privacy-link" target="_blank">
+        Политика конфиденциальности
+      </a>
+    </div>
+  </div>
+
 
       <!-- Приложение 2 -->
    
@@ -266,5 +295,6 @@
 
 </body>
 </html>
+
 
 
